@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <title>Lorem ipsum</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700)" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href='https://fonts.googleapis.com/css?family=Lexend Mega' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Marko One' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+ 
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="text/babel">
+            
+            
+            class Heading extends React.Component {
+                render() {
+                    return (
+                        <div class="row">
+                            <div class="col-md-5"id="heading">
+                                <div  class="text-center">
+                                <div class="text-center">
+                                <h1 id="event_event"> Lorem Ipsum</h1>
+                                </div>
+                                <br />
+                                <br />
+                                    <button className = "event_event" id="register">Register Now <i class="material-icons" id="fast_forward">fast_forward</i></button>
+                                    <h2 className="text">Here's all you need to know</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-7" id="image">
+                                <img src="dummy+image.png" alt="event.image" width="700px" height="300px" className="event_image" />
+                            </div>
+                            
+                        </div>
+                    )
+                }
+            }
+
+            class Desc extends React.Component {
+                render() {
+                    return (
+                        <div class="col-md-12">
+                            <br />
+                            <br />
+                            <hr />
+                            <h1 className ="tag"><i class="material-icons" id="icon">search</i> What?</h1>
+                            <h2 className="text" id="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, ea provident et quam nesciunt
+                                libero, inventore minima consectetur tempora repudiandae quod blanditiis est? Aliquid consectetur amet sed, repellat quo quasi!</h2>
+                            <hr />
+                        </div>
+                    )
+                }
+            }
+            
+            class Prize extends React.Component {
+                render() {
+                    return (
+                        <div class="col-md-12">
+                            <h1 className="tag"><span class="material-icons" id="icon">emoji_events</span> Why?</h1>
+                            <br />
+                            <table>
+                            <tr>
+                                <td>
+                                        <ul className="text">
+                                            <li className="prize"><span class="material-icons" id="icon_small">label_important</span> Prize Rankrange</li>
+                                        </ul>
+                                </td>
+                                <td>
+
+                                        <p className="text">Prize Desc Lorem ipsum dolor, sit amet consectetur adipisicing el</p>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <ul className="text">
+                                            <li className="prize"><span class="material-icons" id="icon_small">label_important</span> Prize Rankrange</li>
+                                        </ul>
+                                </td>
+                                <td>
+
+                                        <p className="text">Prize Desc Lorem ipsum dolor, sit amet consectetur adipisicing el</p>
+                                    
+                                </td>
+                            </tr>
+                            </table>
+                            <hr />
+                        </div>
+                    )
+                }
+            }
+
+            class Timeline extends React.Component {
+                render() {
+                    return (
+                        <div class="col-md-12">
+                            <h1 className="tag"><span class="material-icons" id="icon">date_range</span> When?</h1>
+                            <div>
+                            
+
+                            <div class="container">
+                                <h4>Timeline Style : Demo-1</h4>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="main-timeline">
+                                            <a href="#" class="timeline">
+                                                <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                                                <div class="timeline-content">
+                                                    <h3 class="title">Web Designer</h3>
+                                                    <p class="description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="timeline">
+                                                <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                                                <div class="timeline-content">
+                                                    <h3 class="title">Web Developer</h3>
+                                                    <p class="description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="timeline">
+                                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                                                <div class="timeline-content">
+                                                    <h3 class="title">Web Designer</h3>
+                                                    <p class="description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="timeline">
+                                                <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                                                <div class="timeline-content">
+                                                    <h3 class="title">Web Developer</h3>
+                                                    <p class="description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            </div>
+                            <hr />
+                        </div>
+                    )
+                }
+            }
+
+            class Register extends React.Component {
+                render() {
+                        return (
+                            <div>
+                                <hr />
+                                <h1 className="tag"><span class="material-icons" id="icon">fact_check</span> How?</h1>
+                                <br />
+                                <h2 className="text" id="social"> Number of people joining us: {this.props.registered} </h2>
+                                <h2 className="text" id="social">Can we count you in?</h2>
+                                <br />
+                                <div class="text-center">
+                                <button className = "event_event" id="register">Register Now <i class="material-icons" id="fast_forward">fast_forward</i></button>
+                                </div>
+                                <h2 className="text" id="social">Also follow us on Instagram and LinkinIn for periodic updates on all our events </h2>
+                                
+                            </div>
+                        )
+                }
+            }
+
+            
+            class App extends React.Component {
+                constructor(props){
+                    super(props);
+                    this.state = {
+                        registered: 0
+                    }
+                }
+
+                render() {
+                    return( 
+                        <div>
+                            <Heading />
+                            <Desc />
+                            <Prize />
+                            <Timeline />
+                            <Register registered={this.state.registered}/>
+                        </div>
+                    )
+                }
+            }
+            
+            
+            ReactDOM.render(<App />, document.querySelector("#app"));
+  
+        </script>
+    </body>
+</html>
